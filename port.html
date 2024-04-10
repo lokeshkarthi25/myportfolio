@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end Developer Portfolio</title>
+    <link rel="stylesheet" href="./port.css">
+    <script src="port.js"  defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <h1><span>My</span>Portfolio</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <div class="card-container">
+                <img src="./karthi.jpg" alt="personImage">
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="card-title">Welcome</h2>
+                    <p class="card-text">Hello and welcome! I'm Lokesh, a passionate web developer with a keen eye for design and
+                         a love for creating functional and user-friendly websites. 
+                        With a strong background in Html,Css,JavaScript,ReactJS.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>ABOUT</h1>
+        <div class="container">
+            
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="card-title">Education</h2>
+                    <p class="card-text">
+                        Secondary Schooling - 85.6% <br>
+                        (2018) <br>
+                        Higher Secondary - 75.6% <br>
+                        (2018-2020) <br>
+                        Bachelor of Science in Physics - 6.85 CGPA 
+                        (2020-2023)
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="card-title">Certification</h2>
+                    <p class="card-text">
+                        Certification in 
+                        MERN Stack Development -Dec
+                        2023 <br><br>
+                        Web Development Fundamentals by IBM-Mar 2024
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="card-title">Refferal</h2>
+                        <a  href="https://www.credly.com/badges/d1529d03-e085-4aee-affa-212228af9dad/linked_in?t=sa7vdi"
+                         target="_blank"><p class="card-link">Certification link Provided by IBM for Web
+                            Development Fundamentals
+                         </p> </a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+     <section id="skills">
+        <h1>SKILLS</h1>
+        <div class="container">
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="card-title">Front end</h2>
+                        <p class="card-text">
+                           HTML5 <br>CSS <br>JavaScript <br>
+                           ReactJS
+                        </p>     
+                </div>
+            </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h2 class="card-title">Back end</h2>
+                        <p class="card-text">
+                                <span>(Beginner)</span><br>
+                               NodeJS <br>
+                               Express JS
+                            </p>
+                            <h2 class="card-title">Database</h2>
+                            <p class="card-text">
+                               SQL
+                            </p>        
+                           
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h2 class="card-title">Version Control</h2>
+                            <p class="card-text">
+                               GitHub
+                            </p>   
+                            <a href="https://github.com/lokeshkarthi25" target="_blank">
+                                <p class="card-link">My GitHub Account</p>
+                            </a>
+                    </div>
+                </div>
+        </div>
+    </section> 
+    
+
+    <section id="projects">
+        <h1>PROJECTS</h1>
+        <div class="container">
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="card-title">Customer Relationship Management</h2>
+                        <p class="card-text">
+                            A web-based CRM (Customer Relationship Management)
+                            system built to streamline customer interactions and manage sales processes.
+                        </p>
+                        <h2 class="card-title">Technologies Used</h2>
+                        <p class="card-text">
+                            Frontend: HTML5, CSS, JavaScript, React.js <br>
+                            Backend: Node.js <br>
+                         Database: MongoDB 
+                        </p>        
+                </div>
+            </div>
+
+            <div class="slider">
+                <div class="gallery">
+                    <a target="_blank" href="./Screenshot (1).png">
+                        <img src="./Screenshot (1).png" alt="dashboard" >
+                    </a>    
+                
+                    <a target="_blank" href="./Screenshot (2).png">
+                        <img src="./Screenshot (2).png" alt="dashboard" >
+                    </a>    
+                
+                    <a target="_blank" href="./Screenshot (3).png">
+                        <img src="./Screenshot (3).png" alt="dashboard">
+                    </a>    
+            
+                    <a target="_blank" href="./Screenshot (4).png">
+                        <img src="./Screenshot (4).png" alt="dashboard" >
+                    </a>    
+
+                    <a target="_blank" href="./Screenshot (5).png">
+                        <img src="./Screenshot (5).png" alt="dashboard">
+                    </a>    
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094</button>
+                <button class="next" onclick="nextSlide()">&#10095</button>
+            </div><br><br>
+        </div>
+        <!-- <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of Project 2</p>
+        </div> -->
+    </section>
+
+    
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="container">
+            <a href="https://in.linkedin.com/in/lokesh-kumar-25b6802b1" target="_blank">
+                <i class="fa-brands fa-linkedin" style="color: #FFD43B;"></i>
+            </a>
+            <a href="mailto:lokeshwork25@gmail.com?subject=Hello!" target="_blank">
+                <i class="fa-solid fa-envelope" style="color: #FFD43B;"></i>
+            </a>
+            <a href="http://wa.me/916374142436" target="_blank">
+                <i class="fa-brands fa-whatsapp" style="color: #FFD43B;"></i>
+            </a>
+               
+            
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lokesh - Front-end Developer</p>
+        </div>
+    </footer>
+</body>
+</html>
